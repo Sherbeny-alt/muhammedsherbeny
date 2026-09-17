@@ -38,6 +38,8 @@ export const about = {
 } as const;
 
 export const stats = [
+  { value: "GCI World Program", label: "Real-World Competition" },
+  { value: "BSc", label: "Data Science & AI" },
   { value: "DEPI / ITI", label: "Professional training" },
   { value: "AR · EN", label: "Languages" },
 ] as const;
@@ -96,17 +98,23 @@ export const skillGroups = [
 
 export const education = [
   {
-    period: "2024 — 2028",
     title: "BSc Data Science & Artificial Intelligence",
     org: "Zagazig University",
     icon: "cap" as const,
   },
   {
-    period: "2024 — Present",
+    period: "Sep 2026 — Dec 2026",
     title: "AI & Data Science Trainee",
     org: "DEPI / ITI",
     note: "Intensive training in analysis, machine learning, and AI fundamentals.",
     icon: "spark" as const,
+  },
+  {
+    period: "Sep 2026 — Dec 2026",
+    title: "AI & Data Science Trainee",
+    org: "(GCI) World Program 2026",
+    note: "Hands-on training in data analysis, machine learning, and AI fundamentals.\nBusiness Understanding & Problem Framing: Translating business challenges into clear, data-driven questions using CRISP-DM.",
+    icon: "brain-circuit" as const,
   },
 ];
 
