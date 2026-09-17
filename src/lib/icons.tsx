@@ -77,11 +77,55 @@ export function SparkIcon(props: IconProps) {
 
 export function BrainIcon(props: IconProps) {
   return (
-    <svg {...base} {...props}>
-      <path d="M9 4.5a2.3 2.3 0 0 0-2.3 2.3v.3A2.3 2.3 0 0 0 5 9.3a2.5 2.5 0 0 0 .5 4.9 2.3 2.3 0 0 0 2.5 2.8h1V6.5A2 2 0 0 0 9 4.5Z" />
-      <path d="M15 4.5a2.3 2.3 0 0 1 2.3 2.3v.3A2.3 2.3 0 0 1 19 9.3a2.5 2.5 0 0 1-.5 4.9 2.3 2.3 0 0 1-2.5 2.8h-1V6.5a2 2 0 0 1 2-2Z" />
-      <path d="M9.5 11.5h1.5M13 11.5h1.5" />
-      <path d="M9.5 8h1M13.5 8h1" />
+    <svg
+      {...base}
+      {...props}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {/* Brain outline */}
+      <path d="
+        M10.2 4.4
+        C8.5 3.6 6.5 4.5 6.2 6.4
+        C4.6 6.5 3.5 7.8 3.5 9.3
+        C3.5 10.2 3.9 11 4.5 11.5
+        C3.8 12.1 3.4 13 3.4 14
+        C3.4 15.7 4.7 17 6.3 17
+        C6.5 18.7 7.8 19.6 9.3 19.6
+        C10.4 19.6 11.2 18.7 11.2 17.6
+        V6.2
+        C11.2 5.4 10.8 4.7 10.2 4.4Z
+      " />
+
+      <path d="
+        M13.8 4.4
+        C15.5 3.6 17.5 4.5 17.8 6.4
+        C19.4 6.5 20.5 7.8 20.5 9.3
+        C20.5 10.2 20.1 11 19.5 11.5
+        C20.2 12.1 20.6 13 20.6 14
+        C20.6 15.7 19.3 17 17.7 17
+        C17.5 18.7 16.2 19.6 14.7 19.6
+        C13.6 19.6 12.8 18.7 12.8 17.6
+        V6.2
+        C12.8 5.4 13.2 4.7 13.8 4.4Z
+      " />
+
+      {/* Neural connections */}
+      <path d="M7 8.5h2.5l1 1.5" />
+      <path d="M17 8.5h-2.5l-1 1.5" />
+
+      <path d="M7 14.5h2.5l1-1.5" />
+      <path d="M17 14.5h-2.5l-1-1.5" />
+
+      {/* Neural nodes */}
+      <circle cx="7" cy="8.5" r=".7" fill="currentColor" stroke="none" />
+      <circle cx="17" cy="8.5" r=".7" fill="currentColor" stroke="none" />
+      <circle cx="7" cy="14.5" r=".7" fill="currentColor" stroke="none" />
+      <circle cx="17" cy="14.5" r=".7" fill="currentColor" stroke="none" />
     </svg>
   );
 }

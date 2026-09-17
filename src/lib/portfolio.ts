@@ -110,10 +110,9 @@ export const education = [
     icon: "spark" as const,
   },
   {
-    period: "Sep 2026 — Dec 2026",
-    title: "AI & Data Science Trainee",
-    org: "(GCI) World Program 2026",
-    note: "Hands-on training in data analysis, machine learning, and AI fundamentals.\nBusiness Understanding & Problem Framing: Translating business challenges into clear, data-driven questions using CRISP-DM.",
+    title: "AI & Data Science Trainee — GCI World Program",
+    org: "University of Tokyo (Matsuo-Iwasawa Lab)",
+    note: "Selected via DEPI to join GCI World 2026: trained in Python, ML, SQL, and data visualization through hands-on projects and a final capstone.",
     icon: "brain" as const,
   },
 ];
