@@ -32,14 +32,12 @@ export const about = {
   kicker: "About me",
   quote: "Curious about the patterns hidden inside everyday data.",
   body: [
-    "I'm a Data Science and AI undergraduate at Zagazig University, combining strong academic work with practical training through DEPI and ITI.",
+    "I'm a Data Science and AI Engineer, combining strong academic work with practical training through DEPI and ITI.",
     "Based in Zagazig, Egypt, I'm looking for internships and junior data analyst roles where thoughtful analysis can make a measurable difference.",
   ],
 } as const;
 
 export const stats = [
-  { value: "3.89", label: "GPA / 4.00" },
-  { value: "2028", label: "Expected graduation" },
   { value: "DEPI / ITI", label: "Professional training" },
   { value: "AR · EN", label: "Languages" },
 ] as const;
@@ -101,7 +99,6 @@ export const education = [
     period: "2024 — 2028",
     title: "BSc Data Science & Artificial Intelligence",
     org: "Zagazig University",
-    note: "Expected 2028 · GPA 3.89 / 4.00",
     icon: "cap" as const,
   },
   {
