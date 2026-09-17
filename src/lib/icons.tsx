@@ -75,6 +75,17 @@ export function SparkIcon(props: IconProps) {
   );
 }
 
+export function BrainIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9 4.5a2.3 2.3 0 0 0-2.3 2.3v.3A2.3 2.3 0 0 0 5 9.3a2.5 2.5 0 0 0 .5 4.9 2.3 2.3 0 0 0 2.5 2.8h1V6.5A2 2 0 0 0 9 4.5Z" />
+      <path d="M15 4.5a2.3 2.3 0 0 1 2.3 2.3v.3A2.3 2.3 0 0 1 19 9.3a2.5 2.5 0 0 1-.5 4.9 2.3 2.3 0 0 1-2.5 2.8h-1V6.5a2 2 0 0 1 2-2Z" />
+      <path d="M9.5 11.5h1.5M13 11.5h1.5" />
+      <path d="M9.5 8h1M13.5 8h1" />
+    </svg>
+  );
+}
+
 export function LinkedInIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>

@@ -114,7 +114,7 @@ export const education = [
     title: "AI & Data Science Trainee",
     org: "(GCI) World Program 2026",
     note: "Hands-on training in data analysis, machine learning, and AI fundamentals.\nBusiness Understanding & Problem Framing: Translating business challenges into clear, data-driven questions using CRISP-DM.",
-    icon: "brain-circuit" as const,
+    icon: "brain" as const,
   },
 ];
 

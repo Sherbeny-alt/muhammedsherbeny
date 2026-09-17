@@ -1,9 +1,9 @@
 import { education, sections } from "@/lib/portfolio";
-import { CapIcon, SparkIcon } from "@/lib/icons";
+import { CapIcon, SparkIcon, BrainIcon } from "@/lib/icons";
 import { Reveal } from "./reveal";
 import { SectionHeading } from "./section-heading";
 
-const icons = { cap: CapIcon, spark: SparkIcon } as const;
+const icons = { cap: CapIcon, spark: SparkIcon, brain: BrainIcon } as const;
 
 export function SiteEducation() {
   return (
