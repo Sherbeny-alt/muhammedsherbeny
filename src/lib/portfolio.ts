@@ -12,7 +12,7 @@ export const profile = {
 } as const;
 
 export const navLinks = [
-  { label: "Work", href: "#projects" },
+  { label: "Work", href: "#work" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },

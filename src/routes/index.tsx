@@ -9,6 +9,7 @@ import { SiteNav } from "@/components/site/site-nav";
 import { SiteSkills } from "@/components/site/site-skills";
 import { SiteWork } from "@/components/site/site-work";
 import { profile, projects, skillGroups, socials } from "@/lib/portfolio";
+import { SlideContainer } from "@/components/site/slide-container";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -61,17 +62,19 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const slides = [
+    { id: "hero", label: "Home", node: <SiteHero /> },
+    { id: "about", label: "About", node: <SiteAbout /> },
+    { id: "work", label: "Work", node: <SiteWork /> },
+    { id: "skills", label: "Skills", node: <SiteSkills /> },
+    { id: "education", label: "Education", node: <SiteEducation /> },
+    { id: "contact", label: "Contact", node: <SiteContact /> },
+  ];
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav />
-      <main>
-        <SiteHero />
-        <SiteAbout />
-        <SiteWork />
-        <SiteSkills />
-        <SiteEducation />
-        <SiteContact />
-      </main>
+      <SlideContainer slides={slides} />
       <SiteFooter />
     </div>
   );
