@@ -6,7 +6,7 @@ export const profile = {
   role: "Data Science & AI",
   headline:
     "I turn complex data into clear models, useful visuals, and decisions people can act on.",
-  email: "20912024100967@fci.zu.edu.eg",
+  email: "muhammedabdulfttah8866@gmail.com",
   location: "Zagazig, Egypt",
   availability: "Available for new opportunities",
 } as const;
