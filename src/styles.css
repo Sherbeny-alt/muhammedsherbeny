@@ -218,36 +218,36 @@
     border-color: var(--color-border);
   }
 
-  html {
-    scroll-behavior: smooth;
-    background-color: var(--color-ink);
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-ink);
 
-    scrollbar-width: none;
+  scrollbar-width: none;
     -ms-overflow-style: none;
-  }
+  overflow-x: hidden;
+}
 
-  html::-webkit-scrollbar {
-    display: none;
-    width: 0;
-    height: 0;
-  }
+html::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 
-  body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-    font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
-
-    scrollbar-width: none;
+  scrollbar-width: none;
     -ms-overflow-style: none;
-  }
+  overflow-x: hidden;
+}
 
-  body::-webkit-scrollbar {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
   ::selection {
     background-color: oklch(0.81 0.135 86 / 30%);
     color: var(--color-foreground);
